@@ -26,7 +26,7 @@ cd STEP
 
 ## Usage
 
-Please see `introduction.py`, which provides a comprehensive introduction to package use. For further specificity, see the function signatures and usage tips for the main functionality listed below or call `help(`*`function`*`)` for information on these and functions called therein. Depending on the function, the latter may provide more function-specific information.
+Please see `introduction.py`, for a comprehensive introduction to package use. See [Implementation Details](https://github.com/bkleeman/STEP-suggestions/wiki/Implementation-Details) for function signatures and usage tips. You can also call `help(`*`function`*`)` for information on these and functions called therein **<elaborate on this please -- do i call this within a python script? does it print to the console?>**. Depending on the function, calling `help()` will provide more info.
 
 ## Methodology
 
