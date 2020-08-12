@@ -1,12 +1,10 @@
 # STEP (Storm Tracking and Evaluation Protocol)
 
-STEP is a Python package that identifies, tracks, and computes physical characteristics of rainstorms given spatiotemporal precipitation data. The algorithms herein are implementations of those proposed by Chang et al. in [*Changes in Spatiotemporal Precipitation Patterns in Changing Climate Conditions*](https://geosci.uchicago.edu/~moyer/MoyerWebsite/Publications/Papers/Changes_Spatio-temporal_Precipitation_patterns.pdf), released by RDCEP under the [MIT License???](https://choosealicense.com/licenses/mit/). The functionality is as follows:
-
-The identification algorithm divides the precipitation field at each time step into individual storms. The tracking algorithm builds rainstorm events evolving over time by tracking identified storms across consecutive time steps. Finally, the storm characteristics algorithm quantitatively describes individual storms in terms of duration, size, average intensity, and central location. In addition to these, the package provides a few simplistic plotting functions and examples to visualize the results of the first two algorithms and the associated precipitation data. A function to produce a histogram depicting the frequency of precipitation values is also provided to aid in finding an optimal precipitation threshold.
+STEP is a Python package that identifies, tracks, and computes physical characteristics of rainstorms given spatiotemporal precipitation data. The algorithms herein are implementations of those proposed by Chang et al. in [*Changes in Spatiotemporal Precipitation Patterns in Changing Climate Conditions*](https://geosci.uchicago.edu/~moyer/MoyerWebsite/Publications/Papers/Changes_Spatio-temporal_Precipitation_patterns.pdf), released by RDCEP under the [MIT License???](https://choosealicense.com/licenses/mit/). For implementation details, see the [documentation](rdcep.org/step/docs). ----- **LINK TO DOCUMENTATION via RDCEP website, Read the Docs, or similar** 
 
 ## Installation
 
- To install STEP, use the package manager [pip](https://pip.pypa.io/en/stable/).
+ To install STEP, ensure that you are using Python 3.7.4 **(or whatever version)** and use the package manager [pip](https://pip.pypa.io/en/stable/).
 
 ```bash
 pip install STEP
@@ -15,18 +13,24 @@ pip install STEP
 UPDATE ONCE FINISHED
 
 ## Dependencies
-|Name|Version|Home|Necessary in|Optional in
-|--|--|--|--|--|
-|Basemap|1.2.1|matplotlib.org/basemap|`plot_with_map`|`introduction`
-|imageio|2.8.0|imageio.github.io|`plot_label2rgb` *`plot_storms`* `plot_with_map` |`introduction`
-|Matplotlib|3.2.1|matplotlib.org|`plot_label2rgb` *`plot_storms`* `plot_with_map` |`introduction`
-|netCDF4|1.5.3|unidata.github.io/netcdf4-python/netCDF4/index.html|**`none`**|`introduction`
-|NumPy|1.18.5|numpy.org|**`all`**|**`none`**
-|scikit-image|0.17.2|scikit-image.org|`colorlabel` *`identification`*  `introduction` `plot_label2rgb` *`tracking`*|**`none`**
-|SciPy|1.4.1|scipy.org|*`identification`* *`tracking`*|`introduction`
-|six|1.15.0|https://github.com/benjaminp/six|`colorlabel`|**`none`**
+|Name|Version|Necessary in|Optional in
+|--|--|--|--|
+|[Basemap](matplotlib.org/basemap)|1.2.1|`plot_with_map`|`introduction`
+|[imageio](imageio.github.io)|2.8.0|`plot_label2rgb` *`plot_storms`* `plot_with_map` |`introduction`
+|[Matplotlib](matplotlib.org)|3.2.1|`plot_label2rgb` *`plot_storms`* `plot_with_map` |`introduction`
+|[netCDF4](unidata.github.io/netcdf4-python/netCDF4/index.html)|1.5.3|**`none`**|`introduction`
+|[NumPy](numpy.org)|1.18.5|**`all`**|**`none`**
+|[scikit-image](scikit-image.org)|0.17.2|`colorlabel` *`identification`*  `introduction` `plot_label2rgb` *`tracking`*|**`none`**
+|[SciPy](scipy.org)|1.4.1|*`identification`* *`tracking`*|`introduction`
+|[six](https://github.com/benjaminp/six)|1.15.0|`colorlabel`|**`none`**
 
 *Note: core functionality is italicized. All other files are examples or support examples.*
+
+The functionality is as follows:
+
+The identification algorithm divides the precipitation field at each time step into individual storms. The tracking algorithm builds rainstorm events evolving over time by tracking identified storms across consecutive time steps. Finally, the storm characteristics algorithm quantitatively describes individual storms in terms of duration, size, average intensity, and central location. In addition to these, the package provides a few simplistic plotting functions and examples to visualize the results of the first two algorithms and the associated precipitation data. A function to produce a histogram depicting the frequency of precipitation values is also provided to aid in finding an optimal precipitation threshold.
+
+
 
 ## Usage
 
