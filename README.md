@@ -8,21 +8,21 @@ STEP is a Python package that identifies, tracks, and computes physical characte
 
 ```bash
 pip install STEP
+cd STEP
+<further instructions here>
 ```
 
-UPDATE ONCE FINISHED
-
 ## Dependencies
-|Name|Version|Necessary in|Optional in
-|--|--|--|--|
-|[Basemap](matplotlib.org/basemap)|1.2.1|`plot_with_map`|`introduction`
-|[imageio](imageio.github.io)|2.8.0|`plot_label2rgb` *`plot_storms`* `plot_with_map` |`introduction`
-|[Matplotlib](matplotlib.org)|3.2.1|`plot_label2rgb` *`plot_storms`* `plot_with_map` |`introduction`
-|[netCDF4](unidata.github.io/netcdf4-python/netCDF4/index.html)|1.5.3|**`none`**|`introduction`
-|[NumPy](numpy.org)|1.18.5|**`all`**|**`none`**
-|[scikit-image](scikit-image.org)|0.17.2|`colorlabel` *`identification`*  `introduction` `plot_label2rgb` *`tracking`*|**`none`**
-|[SciPy](scipy.org)|1.4.1|*`identification`* *`tracking`*|`introduction`
-|[six](https://github.com/benjaminp/six)|1.15.0|`colorlabel`|**`none`**
+|Name|Version|
+|--|--|
+|[Basemap](matplotlib.org/basemap)|1.2.1|
+|[imageio](imageio.github.io)|2.8.0|
+|[Matplotlib](matplotlib.org)|3.2.1|
+|[netCDF4](unidata.github.io/netcdf4-python/netCDF4/index.html)|1.5.3|
+|[NumPy](numpy.org)|1.18.5|
+|[scikit-image](scikit-image.org)|0.17.2|
+|[SciPy](scipy.org)|1.4.1|
+|[six](https://github.com/benjaminp/six)|1.15.0|
 
 *Note: core functionality is italicized. All other files are examples or support examples.*
 
