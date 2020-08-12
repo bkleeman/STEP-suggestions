@@ -24,8 +24,6 @@ cd STEP
 |[SciPy](scipy.org)|1.4.1|
 |[six](https://github.com/benjaminp/six)|1.15.0|
 
-*Note: core functionality is italicized. All other files are examples or support examples.*
-
 ## Usage
 
 Please see `introduction.py`, which provides a comprehensive introduction to package use. For further specificity, see the function signatures and usage tips for the main functionality listed below or call `help(`*`function`*`)` for information on these and functions called therein. Depending on the function, the latter may provide more function-specific information.
