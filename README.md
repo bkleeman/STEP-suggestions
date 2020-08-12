@@ -2,6 +2,14 @@
 
 STEP is a Python package that identifies, tracks, and computes physical characteristics of rainstorms given spatiotemporal precipitation data. The algorithms herein are implementations of those proposed by Chang et al. in [*Changes in Spatiotemporal Precipitation Patterns in Changing Climate Conditions*](https://geosci.uchicago.edu/~moyer/MoyerWebsite/Publications/Papers/Changes_Spatio-temporal_Precipitation_patterns.pdf), released by the [Center for Robust Decision-making on Climate and Energy Policy](https://www.rdcep.org). For implementation details, see the [wiki](https://github.com/bkleeman/STEP-suggestions/wiki).
 
+## Summary
+* Installation
+* Dependencies
+* Usage
+* Notes on Methodology
+* Contributing
+* License
+
 ## Installation
 
  To install STEP, ensure that you are using Python 3.7.4 **(or whatever version)** and use the package manager [pip](https://pip.pypa.io/en/stable/).
@@ -49,3 +57,14 @@ Below are a list of generally useful ideas for future additions to STEP:
 
 ## License
 STEP is released under the [MIT License](https://choosealicense.com/licenses/mit/).
+
+## Authors
+* [Alex Rittler](Link_to_github_or_whatever_social_profile) - *lead developer*
+
+## Acknowledgements
+* [Won Chang](LinkedIn_or_RDCEP_profile_if_permission_given) - *research*
+* [Michael Stein](LinkedIn_or_RDCEP_profile_if_permission_given) - *research*
+* [Jiali Wang](LinkedIn_or_RDCEP_profile_if_permission_given) - *research*
+* [Rao Kotamarthi](LinkedIn_or_RDCEP_profile_if_permission_given) - *research*
+* [Elisabeth Moyer](LinkedIn_or_RDCEP_profile_if_permission_given) - *research*
+* [Benjamin Kleeman](https://github.com/bkleeman) - *guidance on project structure and docs* 
