@@ -1,6 +1,6 @@
 # STEP (Storm Tracking and Evaluation Protocol)
 
-STEP is a Python package that identifies, tracks, and computes physical characteristics of rainstorms given spatiotemporal precipitation data. The algorithms herein are implementations of those proposed by Chang et al. in [*Changes in Spatiotemporal Precipitation Patterns in Changing Climate Conditions*](https://geosci.uchicago.edu/~moyer/MoyerWebsite/Publications/Papers/Changes_Spatio-temporal_Precipitation_patterns.pdf), released by RDCEP under the [MIT License???](https://choosealicense.com/licenses/mit/). For implementation details, see the [wiki](https://github.com/bkleeman/STEP-suggestions/wiki). ----- **LINK TO DOCUMENTATION via RDCEP website, Read the Docs, or similar** 
+STEP is a Python package that identifies, tracks, and computes physical characteristics of rainstorms given spatiotemporal precipitation data. The algorithms herein are implementations of those proposed by Chang et al. in [*Changes in Spatiotemporal Precipitation Patterns in Changing Climate Conditions*](https://geosci.uchicago.edu/~moyer/MoyerWebsite/Publications/Papers/Changes_Spatio-temporal_Precipitation_patterns.pdf), released by RDCEP under the [MIT License???](https://choosealicense.com/licenses/mit/). For implementation details, see the [wiki](https://github.com/bkleeman/STEP-suggestions/wiki).
 
 ## Installation
 
