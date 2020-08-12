@@ -28,6 +28,8 @@ cd STEP
 
 Please see `introduction.py`, for a comprehensive introduction to package use. See [Implementation Details](https://github.com/bkleeman/STEP-suggestions/wiki/Implementation-Details) for function signatures and usage tips. You can also call `help(`*`function`*`)` for information on these and functions called therein **<elaborate on this please -- do i call this within a python script? does it print to the console?>**. Depending on the function, calling `help()` will provide more info.
 
+For a deeper introduction, see the [tutorial wiki](https://github.com/bkleeman/STEP-suggestions/wiki/Tutorial).
+
 ## Notes on Methodology
 
 It is highly recommended that you review either the [methodology wiki](https://github.com/bkleeman/STEP-suggestions/wiki/Methodology) or the [original publication](https://geosci.uchicago.edu/~moyer/MoyerWebsite/Publications/Papers/Changes_Spatio-temporal_Precipitation_patterns.pdf) and its supplemental materials before use. Both the identification and tracking algorithms require highly sensitive user-specified parameters, and reviewing these materials -- particularly the "Usage Notes" associated with each algorithm **<okay but where are these??>**-- will help you achieve optimal results more quickly.
