@@ -24,12 +24,12 @@ cd STEP
 |Name|Version|
 |--|--|
 |[Basemap](https://matplotlib.org/basemap/)|1.2.1|
-|[imageio](imageio.github.io)|2.8.0|
-|[Matplotlib](matplotlib.org)|3.2.1|
-|[netCDF4](unidata.github.io/netcdf4-python/netCDF4/index.html)|1.5.3|
-|[NumPy](numpy.org)|1.18.5|
-|[scikit-image](scikit-image.org)|0.17.2|
-|[SciPy](scipy.org)|1.4.1|
+|[imageio](https://imageio.github.io)|2.8.0|
+|[Matplotlib](https://matplotlib.org)|3.2.1|
+|[netCDF4](https://unidata.github.io/netcdf4-python/netCDF4/index.html)|1.5.3|
+|[NumPy](https://numpy.org)|1.18.5|
+|[scikit-image](https://scikit-image.org)|0.17.2|
+|[SciPy](https://scipy.org)|1.4.1|
 |[six](https://github.com/benjaminp/six)|1.15.0|
 
 ## Usage
