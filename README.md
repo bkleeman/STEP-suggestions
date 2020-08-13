@@ -23,7 +23,7 @@ cd STEP
 ## Dependencies
 |Name|Version|
 |--|--|
-|[Basemap](matplotlib.org/basemap)|1.2.1|
+|[Basemap](https://matplotlib.org/basemap/)|1.2.1|
 |[imageio](imageio.github.io)|2.8.0|
 |[Matplotlib](matplotlib.org)|3.2.1|
 |[netCDF4](unidata.github.io/netcdf4-python/netCDF4/index.html)|1.5.3|
