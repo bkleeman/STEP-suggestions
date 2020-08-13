@@ -4,11 +4,14 @@ STEP is a Python package that identifies, tracks, and computes physical characte
 
 To identify and track storms in a dataset you would:
 
-1. put data in file
+1. put data in file of format x
 2. run identify()
 3. run track()
 4. visualize with plotting package x
-`tiny example here if relevant, just a line or two` -- just tell them up front what the ui is, what the settings and variables are, switches we've provided, where you set them, etc.
+
+`tiny example here if relevant, just a line or two` 
+
+-- just tell them up front what the ui is, what the settings and variables are, switches we've provided, where you set them, etc.
 
 ## Summary
 * [Installation](https://github.com/bkleeman/STEP-suggestions#installation)
